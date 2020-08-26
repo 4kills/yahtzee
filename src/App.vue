@@ -1,15 +1,17 @@
 <template>
   <div id="app">
     <h1> {{ $t('yahtzee') }} </h1>
-
+    <LocaleSwitcher></LocaleSwitcher>
   </div>
 </template>
 
 <script>
+import LocaleSwitcher from './components/LocaleSwitcher.vue'
 
 export default {
   name: 'App',
   components: {
+    LocaleSwitcher,
   }
 }
 </script>
