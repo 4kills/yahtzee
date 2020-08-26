@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <h1> {{ $t('yahtzee') }} </h1>
 
   </div>
 </template>
