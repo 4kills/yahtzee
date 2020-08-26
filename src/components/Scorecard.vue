@@ -1,5 +1,6 @@
 <template>
-  <div>
+  <div class='container'>
+    <p> {{ this.name }} </p>
   </div>
 </template>
 
@@ -7,13 +8,18 @@
 export default {
   name: 'Scorecard',
   props: {
-    
+    name: String, 
   }
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.container {
+  border:1px solid black;
+  margin-top: 20px; 
+}
+
 h3 {
   margin: 40px 0 0;
 }
